@@ -1,8 +1,11 @@
+/* style.css */
+
+/* Global styles */
 body {
   font-family: 'Open Sans', sans-serif;
-    color: darkblue;
-      margin: 10px 50px 10px 50px;
-        background-color: Ivory;
+  color: darkblue;
+  margin: 10px 50px 10px 50px;
+  background-color: Ivory;
 }
 
 h1, h2 {
@@ -12,4 +15,31 @@ h1, h2 {
 img {
   float: left;
   margin-right: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar a {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+/* History columns */
+.history-column {
+  width: calc(33.33% - 20px); /* Adjust width as per your requirement */
+  margin-right: 20px;
+  float: left;
 }
