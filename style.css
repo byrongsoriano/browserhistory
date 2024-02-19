@@ -5,15 +5,15 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: darkblue;
   margin: 10px 50px 10px 50px;
-  background-color: Ivory;
+  background-color: White;
 }
 
-h1, h2 {
+h1, h2, .page-title {
   font-family: 'Oswald', sans-serif;
+  color: #0d6efd;
 }
 
 img {
   float: left;
   margin-right: 10px;
 }
-
